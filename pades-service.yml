@@ -1,6 +1,11 @@
 server:
   port: ${PADES_SERVER_PORT:8082}
 
+tsa: http://timestamp.comodoca.com/rfc3161
+
+sign:
+  server: http://localhost:10434/WebApp/Signature.aspx
+  
 default:
   validation:
     policy: policy/constraint.xml
