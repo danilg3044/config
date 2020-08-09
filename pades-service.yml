@@ -9,3 +9,10 @@ sign:
 default:
   validation:
     policy: policy/constraint.xml
+    
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - refresh    
