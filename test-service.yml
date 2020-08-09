@@ -1,6 +1,6 @@
 server:
-  port: ${PADES_SERVER_PORT:8082}
+  port: ${PADES_SERVER_PORT:8088}
 
-default:
-  validation:
-    policy: policy/constraint.xml
+aaa:
+  bbb:
+    ccc: xxxx
