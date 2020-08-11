@@ -4,7 +4,7 @@ server:
 tsa: http://timestamp.comodoca.com/rfc3161
 
 sign:
-  server: http://localhost:10434/WebApp/SignServer/signdata
+  server: http://localhost:10434/WebApp/SignServer
   
 default:
   validation:
